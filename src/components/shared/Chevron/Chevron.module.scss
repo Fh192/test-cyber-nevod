@@ -1,0 +1,22 @@
+.chevron {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  padding: 14.29px;
+  background: #009846;
+  border-radius: 67px;
+  align-self: center;
+  z-index: 10;
+
+  &:disabled {
+    opacity: 0.5;
+  }
+
+  &.left {
+    left: 0;
+  }
+
+  &.right {
+    right: 0;
+  }
+}

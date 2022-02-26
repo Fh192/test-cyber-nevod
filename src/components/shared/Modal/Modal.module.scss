@@ -1,0 +1,23 @@
+.modal {
+  position: fixed;
+  max-width: 510px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 48px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.close {
+  position: absolute;
+  top: -28px;
+  right: 2px;
+  width: 56px;
+  height: 56px;
+  padding: 18px;
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(81, 151, 181, 0.12);
+  border-radius: 12px;
+}

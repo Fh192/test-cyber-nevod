@@ -1,0 +1,55 @@
+.field {
+  position: relative;
+  width: 100%;
+
+  & label {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #777777;
+    transition: all 0.3s ease;
+    padding: 0 4px;
+    background: #fff;    white-space: nowrap;
+  }
+
+  & input {
+    width: 100%;
+    padding: 18px;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    transition: border 0.3s ease;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+
+    &:focus {
+      border: 1px solid #009846;
+
+      & ~ label {
+        color: #009846;
+      }
+    }
+
+    &:focus,
+    &:not(:placeholder-shown) {
+      & ~ label {
+        top: -8px;
+        left: 15px;
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+  }
+
+  &.error {
+    & input {
+      border: 1px solid #c62734;
+
+      & ~ label {
+        color: #c62734;
+      }
+    }
+  }
+}

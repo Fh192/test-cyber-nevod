@@ -1,0 +1,20 @@
+.refreshCaptcha {
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  background: #eaeaea;
+  border-radius: 16px;
+
+  &.spin {
+    animation: spinBtn 0.5s ease 1;
+  }
+}
+
+@keyframes spinBtn {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

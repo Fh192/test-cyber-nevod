@@ -1,0 +1,18 @@
+.agreement {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  max-width: 356px;
+  width: 100%;
+
+  & p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  & .link {
+    text-decoration-line: underline;
+    color: #c62734;
+    display: inline-block;
+  }
+}

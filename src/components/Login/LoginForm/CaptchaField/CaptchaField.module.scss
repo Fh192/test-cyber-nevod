@@ -1,0 +1,15 @@
+.captchaWrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  @media screen and(max-width:400px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.captcha {
+  max-width: 107px;
+  width: 100%;
+}
