@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/test-cyber-nevod/static/css/main.c06b4b07.css",
+    "main.js": "/test-cyber-nevod/static/js/main.4f51a1db.js",
+    "static/media/bebasneuebold.ttf": "/test-cyber-nevod/static/media/bebasneuebold.7e8743efe82e2bd4ea19.ttf",
+    "index.html": "/test-cyber-nevod/index.html",
+    "static/media/refresh.svg": "/test-cyber-nevod/static/media/refresh.280103f82358f1305cc9d486e5d00ca9.svg",
+    "static/media/chevronRight.svg": "/test-cyber-nevod/static/media/chevronRight.1551d6c4f0cf71ce6a4d657a8e996398.svg",
+    "static/media/chevronLeft.svg": "/test-cyber-nevod/static/media/chevronLeft.2f4b074a21abc9d61febb1709f00a715.svg",
+    "static/media/close.svg": "/test-cyber-nevod/static/media/close.484fed940f13b45de53dc0d1e1e52f70.svg",
+    "static/media/check.svg": "/test-cyber-nevod/static/media/check.477b11be1f8d19d6e778.svg",
+    "main.c06b4b07.css.map": "/test-cyber-nevod/static/css/main.c06b4b07.css.map",
+    "main.4f51a1db.js.map": "/test-cyber-nevod/static/js/main.4f51a1db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c06b4b07.css",
+    "static/js/main.4f51a1db.js"
+  ]
+}
